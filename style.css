@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.signs {
+    display:block;
+    margin-bottom: 3px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid purple;
+    border-radius: 10px;
+    font-size: 13px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: purple;
+    color: white;
+    border-radius: 10px;
+    font-size: 17px;
+}
+.complete {
+    display: none;
+    text-align: center;
+}
